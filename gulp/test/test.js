@@ -19,7 +19,10 @@ describe('My first test', function() {
 
 it('should return true because 4 + 7 is 11', function() { assert(11 == compute.sumNumbers(4,7)); });
 
+//Second Problem - Test sum Multiply - that multiplies two numbers
 
+it('should return true because 4 times 7 is 28', function() { assert(28 == compute.multiplyNumbers(4,7)); });
+it('should return false because 4 times 4 is not 28', function() { assert(28 !== compute.multiplyNumbers(4,4)); });
 
 
 
