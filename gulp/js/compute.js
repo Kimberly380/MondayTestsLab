@@ -68,3 +68,5 @@ function sumAndMultiply(a,b,c){
 }
 
 exports.sumAndMultiply = sumAndMultiply;
+
+//Problem 4 sumArray
