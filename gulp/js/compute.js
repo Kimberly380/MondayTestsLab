@@ -34,3 +34,11 @@ function addFive(num) {
 // }
 
 exports.addFive = addFive;
+
+//Problem1 sum function
+
+function sumNumbers(a,b) {
+  return a + b;
+}
+
+exports.sumNumbers = sumNumbers;
