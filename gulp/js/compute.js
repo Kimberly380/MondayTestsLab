@@ -39,6 +39,6 @@ exports.addFive = addFive;
 
 function sumNumbers(a,b) {
   return a + b;
+  console.log("The sum of " + a + " " + b + " is " + sumNumbers);
 }
-
 exports.sumNumbers = sumNumbers;
