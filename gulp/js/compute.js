@@ -50,3 +50,21 @@ function multiplyNumbers(a,b){
   return a * b;
 }
 exports.multiplyNumbers = multiplyNumbers;
+
+
+//Problem 3 sumAndMultiply function
+
+function sumAndMultiply(a,b,c){
+  var array1 = [];
+  var sumFirstTwo = sum(a,b);
+  var sumAll = sum(sumFirstTwo,c);
+  array1[0] = sumAll;
+  var multiFirstTwo = multiply(a,b);
+  var multiAll = multiply(multiFirstTwo,c);
+  array1[1] = multiAll
+  console.log(num1 + ' and ' + num2 + ' and ' + num3 + ' sum to ' +sumAll + '.');
+  console.log('The numbers ' + num1 + ' and ' + num2 + ' and ' + num3 + ' have a product of ' + multAll + '.');
+  return array;
+}
+
+exports.sumAndMultiply = sumAndMultiply;
