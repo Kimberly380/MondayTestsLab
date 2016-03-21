@@ -42,3 +42,10 @@ function sumNumbers(a,b) {
   console.log("The sum of " + a + " " + b + " is " + sumNumbers);
 }
 exports.sumNumbers = sumNumbers;
+
+//Problem2 multiply function
+
+function multiplyNumbers(a,b){
+  return a * b;
+}
+exports.multiplyNumbers = multiplyNumbers;
