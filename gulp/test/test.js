@@ -14,3 +14,7 @@ describe('My first test', function() {
   it('should increment 4 to get 9', function() { assert(9 == compute.addFive(4)); });
   it('should increment -1008 to get -1003', function() { assert(compute.addFive(-1008) == -1003); });
 });
+
+//First Problem - return the sum of two numbers - Test sum() function
+
+it('should return true because 4 + 7 is 11', function() { assert(11 == compute.sumNumbers(4,7)); });
