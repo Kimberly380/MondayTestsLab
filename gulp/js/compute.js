@@ -38,14 +38,33 @@ exports.addFive = addFive;
 //Problem1 sum function
 
 function sumNumbers(a,b) {
+  console.log("The sum of " + a + " and " + b + " is " + sumNumbers);
   return a + b;
-  console.log("The sum of " + a + " " + b + " is " + sumNumbers);
 }
 exports.sumNumbers = sumNumbers;
 
 //Problem2 multiply function
 
 function multiplyNumbers(a,b){
+  console.log('The product of ' + a + ' and ' + b + ' is ' + multiplyNumbers);
   return a * b;
 }
 exports.multiplyNumbers = multiplyNumbers;
+
+
+//Problem 3 sumAndMultiply function
+
+function sumAndMultiply(a,b,c){
+  var array1 = [];
+  var sumFirstTwo = sum(a,b);
+  var sumAll = sum(sumFirstTwo,c);
+  array1[0] = sumAll;
+  var multiFirstTwo = multiply(a,b);
+  var multiAll = multiply(multiFirstTwo,c);
+  array1[1] = multiAll
+  console.log(num1 + ' and ' + num2 + ' and ' + num3 + ' sum to ' +sumAll + '.');
+  console.log('The numbers ' + num1 + ' and ' + num2 + ' and ' + num3 + ' have a product of ' + multAll + '.');
+  return array;
+}
+
+exports.sumAndMultiply = sumAndMultiply;
