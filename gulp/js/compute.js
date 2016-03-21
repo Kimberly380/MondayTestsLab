@@ -38,14 +38,15 @@ exports.addFive = addFive;
 //Problem1 sum function
 
 function sumNumbers(a,b) {
+  console.log("The sum of " + a + " and " + b + " is " + sumNumbers);
   return a + b;
-  console.log("The sum of " + a + " " + b + " is " + sumNumbers);
 }
 exports.sumNumbers = sumNumbers;
 
 //Problem2 multiply function
 
 function multiplyNumbers(a,b){
+  console.log('The product of ' + a + ' and ' + b + ' is ' + multiplyNumbers);
   return a * b;
 }
 exports.multiplyNumbers = multiplyNumbers;
