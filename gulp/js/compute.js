@@ -68,3 +68,15 @@ function sumAndMultiply(a,b,c){
 }
 
 exports.sumAndMultiply = sumAndMultiply;
+
+//Problem 4 sumArray
+
+function sumArray(Array1) {
+  var counter = 0;
+  for (i=0; i < Array1.length; i++) {
+    counter += Array1[i];
+  }
+  console.log(Array1 + " was passed in as an array of numbers, and " + sumArray + " is their sum.");
+  return counter;
+}
+exports.sumArray = sumArray;

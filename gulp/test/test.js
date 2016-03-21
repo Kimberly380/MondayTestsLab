@@ -24,9 +24,19 @@ it('should return true because 4 + 7 is 11', function() { assert(11 == compute.s
 it('should return true because 4 times 7 is 28', function() { assert(28 == compute.multiplyNumbers(4,7)); });
 it('should return false because 4 times 4 is not 28', function() { assert(28 !== compute.multiplyNumbers(4,4)); });
 
-//Third Problem - Test sum sumAndMultiply()
+//Third Problem - Test sumAndMultiply()
 
 it('should return true because 4 plus 7 plus 5 equals 16 and 4 times 7 times times 5 equals 140', function() { assert(16,140 == compute.multiplyNumbers(4,7,5)); });
+
+// //Fourth Problem - Test  sum array
+
+it('test that theArray (3,5,10) returns with a sum of 18', function () {
+    var theArray = [3,5,10];
+    assert.deepEqual(compute.sumArray(theArray), 18);
+  });
+
+
+
 
 
 
