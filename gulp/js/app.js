@@ -1,6 +1,6 @@
 
 
-
+//Kim's comment: interesting, I organized my app.js page by problem number instead of by line item type.
 
 var Q1 = document.getElementById('Question1');
 var Answer1 = document.getElementById('Answer1');
