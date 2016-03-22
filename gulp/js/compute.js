@@ -80,3 +80,16 @@ function sumArray(Array1) {
   return counter;
 }
 exports.sumArray = sumArray;
+
+//Problem 5 multiArray
+
+function multiArray(Array2){
+  var counter = 1;
+  for (i=0; i < Array2.length; i++){
+    counter = counter * Array2[i];
+  }
+  console.log("The numbers " +Array2 + " have a product of " + sumArray + ".");
+  return counter;
+}
+
+exports.multiArray = multiArray;

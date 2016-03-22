@@ -28,12 +28,20 @@ it('should return false because 4 times 4 is not 28', function() { assert(28 !==
 
 it('should return true because 4 plus 7 plus 5 equals 16 and 4 times 7 times times 5 equals 140', function() { assert(16,140 == compute.multiplyNumbers(4,7,5)); });
 
-// //Fourth Problem - Test  sum array
+//Fourth Problem - Test  sum array
 
-it('test that theArray (3,5,10) returns with a sum of 18', function () {
-    var theArray = [3,5,10];
-    assert.deepEqual(compute.sumArray(theArray), 18);
+it('test that Array1 (3,5,10) returns with a sum of 18', function () {
+    var Array1 = [3,5,10];
+    assert.deepEqual(compute.sumArray(Array1), 18);
   });
+
+//Fifth Problem - Test multi array
+
+it('test that Array2 (3,5,10) returns with a product of 150', function () {
+    var Array2 = [3,5,10];
+    assert.deepEqual(compute.multiArray(Array2), 150);
+  });
+
 
 
 
