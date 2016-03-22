@@ -13,9 +13,9 @@ exports.getQuestion = getQuestion;
 /***********************************************************
  * Example of TDD on a feature related to Week 2's labwork *
  ***********************************************************/
-function addFive(num) {
-  return num + 5;
-}
+// function addFive(num) {
+//   return num + 5;
+// }
 
 // if(addFive(0) == 5) {
 //   console.log("test 1 passed!");
@@ -33,7 +33,7 @@ function addFive(num) {
 //   console.log("test 3 failed");
 // }
 
-exports.addFive = addFive;
+
 
 //Problem1 sum function
 
@@ -56,15 +56,15 @@ exports.multiplyNumbers = multiplyNumbers;
 
 function sumAndMultiply(a,b,c){
   var array1 = [];
-  var sumFirstTwo = sum(a,b);
-  var sumAll = sum(sumFirstTwo,c);
+  var sumFirstTwo = sumNumbers(a,b);
+  var sumAll = sumNumbers(sumFirstTwo,c);
   array1[0] = sumAll;
-  var multiFirstTwo = multiply(a,b);
-  var multiAll = multiply(multiFirstTwo,c);
+  var multiFirstTwo = multiplyNumbers(a,b);
+  var multiAll = multiplyNumbers(multiFirstTwo,c);
   array1[1] = multiAll
-  console.log(num1 + ' and ' + num2 + ' and ' + num3 + ' sum to ' +sumAll + '.');
-  console.log('The numbers ' + num1 + ' and ' + num2 + ' and ' + num3 + ' have a product of ' + multAll + '.');
-  return array;
+  console.log(a + ' and ' + b + ' and ' + c + ' sum to ' +sumAll + '.');
+  console.log('The numbers ' + a + ' and ' + b + ' and ' + c + ' have a product of ' + multiAll + '.');
+  return array1;
 }
 
 exports.sumAndMultiply = sumAndMultiply;
